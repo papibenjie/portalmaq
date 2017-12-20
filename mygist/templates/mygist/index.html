@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Allo</title>
+    <link rel="stylesheet" href="{% static "mygist/css/style.css" %}">
+  </head>
+  <body>
+    <div class="code-frame-container">
+      {% for url, commentary in gist_urls.items %}
+        <div class="code-frame">
+          <script src={{ url }}></script>
+          {% if commentary != "" %}
+          <p class="code-commentary">
+            {{ commentary }}
+          </p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>

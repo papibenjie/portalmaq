@@ -1,0 +1,19 @@
+body {
+}
+
+.code-frame-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 2em;
+}
+
+.code-frame {
+  border: 2px solid black;
+  max-height: 25em;
+  overflow-x: scroll;
+}
+
+.code-commentary {
+  text-align: center;
+}
