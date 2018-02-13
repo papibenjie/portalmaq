@@ -17,12 +17,12 @@ requests = "*"
 gunicorn = "*"
 django-heroku = "*"
 heroku = "*"
-dj-database-url = "0.4.2"
-whitenoise = "3.3.1"
-psycopg2 = "2.7.4"
+dj-database-url = "*"
+whitenoise = "*"
+psycopg2 = "*"
 
 
 
 [requires]
 
-python_version = "3.6"
+python_version = "3.6.4"
