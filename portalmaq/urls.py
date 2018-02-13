@@ -18,5 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     path('gist/', include('mygist.urls')),
+    path('blendergallery/', include('blendergallery.urls')),
     path('admin/', admin.site.urls),
 ]

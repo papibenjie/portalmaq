@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mygist',
+    'blendergallery',
 ]
 
 MIDDLEWARE = [
@@ -121,6 +122,7 @@ USE_TZ = True
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "mygist/static"),
+    os.path.join(BASE_DIR, "blendergallery/static"),
 ]
 
 STATIC_URL = '/static/'

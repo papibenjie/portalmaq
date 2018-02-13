@@ -17,3 +17,9 @@ body {
 .code-commentary {
   text-align: center;
 }
+
+.code-category {
+  text-align: right;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 2em;
+}

@@ -16,6 +16,7 @@ django = "*"
 requests = "*"
 gunicorn = "*"
 django-heroku = "*"
+heroku = "*"
 
 
 [requires]
